@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Recomendações </title>
+	<link rel = "stylesheet" href="reset.css">
+	<link rel = "stylesheet" href="recomendacoesStyle.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<img class ="logo"src="FHLogo.png" alt="Logo Tipo Forza" title="Logo Tipo Forza">
+		<p class = "hori">HORIZON </p>
+		<p class = "bem"> BEM VINDO AO </p>
+
+		<nav>
+			<ul>
+				<li><a href="home.html"> HOME </a></li>
+				<li><a href="novidades.html"> NOVIDADES </a></li>
+				<li><a href="tunagens.html"> TUNAGENS </a></li>
+				<li><a href="recomendacoes.html"> SUGESTÕES </a></li>
+			</ul>
+		</nav>
+	</header>>
+
+<main>
+
+	<form>
+		<label for="xboxtag"> Xbox Gamer Tag </label>
+		<input type="text" id="xboxtag" class="inputi" required>
+
+		<label for="email"> Email </label>
+		<input type="email" id="email" class="inputi" required placeholder="exemple@email.com">
+
+		<label for="code"> Code </label>
+		<input type="code" id="code" class="inputi" required placeholder="999 999 999">
+
+		<label for="comentario"> Comentário </label>
+		<textarea cols="40" rows="10" id="comentario"></textarea>
+
+		<fieldset>
+			<legend>Em qual plataforma você joga?</legend>
+			<label for="radio-xone"><input type="radio" name="contato" value="xone" id="radio-xone" required checked> Xbox One</label>
+			
+
+			<label for="radio-pc"><input type="radio" name="contato" value="pc" id="radio-pc"> Microsoft Windows</label>
+			
+
+			<label for="radio-xsx"><input type="radio" name="contato" value="xsx" id="radio-xsx"> Xbox Series X</label>
+		</fieldset>
+
+		<label><input type="checkbox" class="checkboxs" checked>	Deseja receber novidades?</label>
+
+		<fildset>
+			<legend>Qual a sua faixa etária?</legend>
+			<select>
+				<option>7 a 13</option>
+				<option>14 a 17</option>
+				<option>18 a 24</option>
+				<option>25 a 33</option>
+				<option>34 a 66</option>
+				<option>67 a IMORTAL</option>
+			</select>
+
+		</fildset>
+		<input type="submit" value="Enviar" class="enviar">
+
+
+	</form>
+
+
+	<table>
+		<tr>
+			<td>Dia</td>
+			<td>Horário</td>
+		</tr>
+		<tr>
+			<td>Segunda</td>
+			<td>8h~20</td>
+		</tr>
+		<tr>
+			<td>Quarta</td>
+			<td>8h~20</td>
+		</tr>
+		<tr>
+			<td>Sexta</td>
+			<td>8h~20</td>
+		</tr>
+	</table>
+
+	
+
+</main>
+
+	<footer>
+		<img class = "microFoto" src="Microsoft-Logo.png">
+		<p> &copy; Copyright - Todos os direitos reservados 2021</p>
+	</footer>
+</body>
+</html>

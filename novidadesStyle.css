@@ -1,0 +1,143 @@
+header{ 							/*TAMANHO DO CABEÇALHO*/
+	padding: 20px 50px;
+	margin-bottom: 10px;
+	background: black;
+
+}
+
+
+ .logo { 						/*OCUPAÇÃO DA IMAGEM DE LOGO DO CABEÇALHO*/
+ 	width: 10%;
+
+ }
+
+
+.bem {							/*CONFIGURAÇÕES DO TEXTO "BEM VINDO AO"*/
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	position: absolute;
+	top: 90px;
+	left: 270px;
+	font-size: 45px;
+
+}
+
+.hori {							/*CONFIGURAÇÕES DO TEXTO "HORIZON"*/
+	color: #ed397a;
+	position: absolute;
+	top: 90px;
+	left: 610px;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+
+}
+
+
+
+nav {							/*CONFIGURAÇÕES DA CAIXA DE NAVEGAÇÃO*/
+	position: absolute;
+	top: 150px;
+	right: 1.5%;
+
+}
+
+nav li {					/*CONFIGURAÇÕES GERAIS ENTREOS ITENS DA LISTA*/
+	display: inline;
+	margin-left: 10px;
+
+}
+
+nav a{						/*CONFIGURAÇÕES DO TEXTO DA NAVEGAÇÃO*/
+	text-decoration: none;
+	font-size: 27px;
+	color: #ed397a;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	transition: 0.200s all;
+
+}
+
+nav a:hover {			/*ANIMAÇÃO DOS BOTÕES*/
+	color: #fd764b;
+	font-size: 28px;
+	top: 15px;
+
+}
+
+
+
+
+body{
+	background: black;
+}
+
+
+
+
+
+
+.itens{
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+.itens li{
+	display: inline-block;
+	margin: 0 2% ;
+	border-color: black;
+	border-style: solid;
+	border-width: 0px 4px;
+}
+
+
+h2{
+	font-size: 30px;
+	margin: 11% 0;
+	color:black;
+}
+
+h1{
+	font-size: 15px;
+	margin: 10% 0;
+	color: black;
+}
+
+
+
+.itens li:hover h2{
+	color:white;
+	transition: 1.5s all;
+}
+
+.itens li:hover h1{
+	color:white;
+	transition: 1.5s all;
+}
+
+.fotos:hover{
+	transform: scale(1.1);
+	transition: 0.500s all;
+	border-color: #ed397a;
+	border-style: solid;
+	border-width: 0px 4px;
+}
+
+
+
+
+
+.microFoto{
+	width: 5%;
+}
+
+footer{
+
+	font-family: 'Oxygen', sans-serif;
+	background: #262626;
+	padding: 15px;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+}

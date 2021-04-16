@@ -1,0 +1,172 @@
+ header{ 							/*TAMANHO DO CABEÇALHO*/
+	
+	padding: 20px 50px;
+	margin-bottom: 10px;
+	background: black;
+}
+
+
+ .logo { 						/*OCUPAÇÃO DA IMAGEM DE LOGO DO CABEÇALHO*/
+
+ 	width: 10%;
+ }
+
+
+.bem {							/*CONFIGURAÇÕES DO TEXTO "BEM VINDO AO"*/
+
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 90px;
+	left: 270px;
+	font-size: 45px;
+}
+
+.hori {							/*CONFIGURAÇÕES DO TEXTO "HORIZON"*/
+
+	color: #ed397a;
+	
+
+	position: absolute;
+	top: 90px;
+	left: 610px;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+nav {							/*CONFIGURAÇÕES DA CAIXA DE NAVEGAÇÃO*/
+
+	position: absolute;
+	top: 150px;
+	right: 1.5%;
+}
+
+nav li {					/*CONFIGURAÇÕES GERAIS ENTREOS ITENS DA LISTA*/
+
+	display: inline;
+	margin-left: 10px;
+}
+
+nav a{						/*CONFIGURAÇÕES DO TEXTO DA NAVEGAÇÃO*/
+
+	text-decoration: none;
+	font-size: 27px;
+	color: #ed397a;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover {			/*ANIMAÇÃO DOS BOTÕES*/
+	
+	transition: 0.500s;
+	color: #fd764b;
+}
+
+
+
+body{
+	background: black;
+}
+
+
+
+.itens li:hover {
+	
+	border-color: #ed397a;
+	border-style: solid;
+	border-width: 0px 1px;
+}
+
+.itens li:active {
+	
+	border-color: #fd764b;
+	border-style: solid;
+	border-width: 0px 1px;
+}
+
+
+
+
+
+
+main {
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+form{
+	margin:40px 0;
+	color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin:10px 0 0; 
+}
+
+form input,textarea {
+	
+	margin: 0 0 20px;
+	padding: 8px 60px;
+	transition: 0.5s;
+
+
+}
+
+
+
+.inputi:hover{
+	transform: scale(1.1);
+
+}
+
+
+.checkboxs {
+	margin:  22px 0;
+}
+
+select{
+	display: block;
+	margin-bottom: 22px;
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+.enviar{
+	background:#ed397a;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	border-width:1px;
+	border-color: #ed397a;
+	text-transform: uppercase;
+	border-radius: 10px;
+	transition: 0.500s all;
+	cursor:pointer;
+}
+
+
+.enviar:hover{
+	background: black;
+	border-style: solid;
+	border-width:1px;
+	border-color: #ed397a;
+	color: #ed397a;
+	transform: scale(1.1);
+}
+
+.microFoto{
+	width: 5%;
+}
+
+footer{
+	font-family: 'Oxygen', sans-serif;
+	background: #262626;
+	padding: 15px;
+	font-size: 17px;
+	color: white;
+	text-align: center;
+}
